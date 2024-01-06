@@ -1,7 +1,12 @@
-import "./App.css";
+import "./styles/App.css";
+import PlayerInfo from "./components/PlayerInfo";
 
 function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <div>
+      <PlayerInfo />
+    </div>
+  );
 }
 
 export default App;
