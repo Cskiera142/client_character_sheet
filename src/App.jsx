@@ -1,10 +1,10 @@
+import TopSection from "./components/TopSection";
 import "./styles/App.css";
-import PlayerInfo from "./components/PlayerInfo";
 
 function App() {
   return (
     <div>
-      <PlayerInfo />
+      <TopSection />
     </div>
   );
 }
