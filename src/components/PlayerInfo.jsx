@@ -12,7 +12,7 @@ function PlayerInfo() {
         style={{
           display: "flex",
           alignItems: "center",
-          justifyContent: "space-around",
+          justifyContent: "end",
           marginBottom: "10px",
         }}
       >
