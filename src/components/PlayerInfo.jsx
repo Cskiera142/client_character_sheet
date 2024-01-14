@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/index.css";
+import "../styles/TopSection.css";
 
 function PlayerInfo() {
   const [name, setName] = useState("");
@@ -8,17 +9,9 @@ function PlayerInfo() {
 
   return (
     <div id="name-container">
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-around",
-          marginBottom: "10px",
-        }}
-      >
+      <div className="name-line">
         <label htmlFor="name">Name:</label>
         <input
-          style={{ marginLeft: "10px" }}
           type="text"
           id="name"
           className="name-field"
@@ -27,17 +20,9 @@ function PlayerInfo() {
           onChange={(e) => setName(e.target.value)}
         />
       </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-around",
-          marginBottom: "10px",
-        }}
-      >
+      <div className="name-line">
         <label htmlFor="class">Class:</label>
         <select
-          style={{ marginLeft: "10px" }}
           id="class"
           className="name-field"
           value={playerClass}
@@ -53,17 +38,9 @@ function PlayerInfo() {
           {/* Add more class options as needed */}
         </select>
       </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-around",
-          marginBottom: "10px",
-        }}
-      >
+      <div className="name-line">
         <label htmlFor="level">Level:</label>
         <input
-          style={{ marginLeft: "10px" }}
           type="number"
           id="level"
           className="name-field"

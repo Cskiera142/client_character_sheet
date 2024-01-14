@@ -1,17 +1,12 @@
 import { useState } from "react";
+import "../styles/CharacterPicture.css";
 
 function CharacterStats() {
   const [statPoint, setStatPoint] = useState();
 
   return (
-    <div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          marginBottom: "10px",
-        }}
-      >
+    <div id="stat-container">
+      <div className="stat-line">
         <label htmlFor="name">STR</label>
         <input
           style={{ marginLeft: "10px" }}
@@ -23,13 +18,7 @@ function CharacterStats() {
           onChange={(e) => setStatPoint(e.target.value)}
         />
       </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          marginBottom: "10px",
-        }}
-      >
+      <div className="stat-line">
         <label htmlFor="name">DEX</label>
         <input
           style={{ marginLeft: "10px" }}
@@ -41,13 +30,7 @@ function CharacterStats() {
           onChange={(e) => setStatPoint(e.target.value)}
         />
       </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          marginBottom: "10px",
-        }}
-      >
+      <div className="stat-line">
         <label htmlFor="name">CON</label>
         <input
           style={{ marginLeft: "10px" }}
@@ -59,13 +42,7 @@ function CharacterStats() {
           onChange={(e) => setStatPoint(e.target.value)}
         />
       </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          marginBottom: "10px",
-        }}
-      >
+      <div className="stat-line">
         <label htmlFor="name">INT</label>
         <input
           style={{ marginLeft: "10px" }}
@@ -77,13 +54,7 @@ function CharacterStats() {
           onChange={(e) => setStatPoint(e.target.value)}
         />
       </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          marginBottom: "10px",
-        }}
-      >
+      <div className="stat-line">
         <label htmlFor="name">WIS</label>
         <input
           style={{ marginLeft: "10px" }}
@@ -95,13 +66,7 @@ function CharacterStats() {
           onChange={(e) => setStatPoint(e.target.value)}
         />
       </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          marginBottom: "10px",
-        }}
-      >
+      <div className="stat-line">
         <label htmlFor="name">CHA</label>
         <input
           style={{ marginLeft: "10px" }}

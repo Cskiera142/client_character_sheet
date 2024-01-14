@@ -1,12 +1,11 @@
-import React from "react";
 import CharacterStats from "./CharacterStats";
+import "../styles/CharacterPicture.css";
 import "../images/5one-1-2-3-4.jpg";
 
 function CharacterPicture() {
   return (
     <div>
-      <img src="./images/5one-1-2-3-4.jpg" />
-      <CharacterStats />
+      <img id="character_image" src="./images/5one-1-2-3-4.jpg" />
     </div>
   );
 }

@@ -1,10 +1,11 @@
-import React from "react";
+import "../styles/App.css";
 import CharacterStats from "./CharacterStats";
 import CharacterPicture from "./CharacterPicture";
 
 function MidSection() {
   return (
-    <div>
+    <div id="mid-container">
+      <CharacterStats />
       <CharacterPicture />
     </div>
   );

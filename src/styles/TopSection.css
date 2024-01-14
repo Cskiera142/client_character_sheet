@@ -13,6 +13,12 @@
   width: 15rem;
 }
 
+.name-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+}
+
 .name-field {
   border: none;
   height: 2rem;
