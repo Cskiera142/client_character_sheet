@@ -2,3 +2,8 @@
   max-width: 10rem;
   background-color: brown;
 }
+
+#mid-container {
+  display: flex;
+  justify-content: space-between;
+}

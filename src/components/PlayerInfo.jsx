@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "../styles/index.css";
 import "../styles/TopSection.css";
 
 function PlayerInfo() {
@@ -10,24 +9,16 @@ function PlayerInfo() {
   return (
     <div id="name-container">
       <div className="name-line">
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "end",
-            marginBottom: "10px",
-          }}
-        >
-          <label htmlFor="name">Name:</label>
-          <input
-            type="text"
-            id="name"
-            className="name-field"
-            placeholder="Enter your name"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
-        </div>
+        <label htmlFor="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          className="name-field"
+          placeholder="Enter your name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+
         <div className="name-line">
           <label htmlFor="class">Class:</label>
           <select
