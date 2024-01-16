@@ -1,6 +1,7 @@
 import "../styles/App.css";
 import CharacterStats from "./CharacterStats";
 import CharacterPicture from "./CharacterPicture";
+import "../styles/MidSection.css";
 
 function MidSection() {
   return (
