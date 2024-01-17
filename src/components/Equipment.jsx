@@ -1,8 +1,8 @@
-import React from "react";
+import "../styles/MidSection.css";
 
 function Equipment() {
   return (
-    <div>
+    <div id="equipment">
       <h3 id="credits">CREDITS</h3>
       <input id="credit-input"></input>
       <div id="equipment-container"></div>

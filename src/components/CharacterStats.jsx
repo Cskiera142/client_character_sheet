@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "../styles/CharacterPicture.css";
 
 function CharacterStats() {
   const [statPoint, setStatPoint] = useState();
@@ -22,13 +21,15 @@ function CharacterStats() {
             marginBottom: "10px",
           }}
         >
-          <label htmlFor="name">STR</label>
+          <label className="stats-name" htmlFor="name">
+            STR
+          </label>
           <input
             style={{ marginLeft: "10px" }}
             type="text"
             id="name"
-            className="name-field"
-            placeholder="Enter your name"
+            className="name-field stat-point"
+            placeholder="3"
             value={name}
             onChange={(e) => setStatPoint(e.target.value)}
           />
@@ -41,13 +42,15 @@ function CharacterStats() {
             marginBottom: "10px",
           }}
         >
-          <label htmlFor="name">DEX</label>
+          <label className="stats-name" htmlFor="name">
+            DEX
+          </label>
           <input
             style={{ marginLeft: "10px" }}
             type="text"
             id="name"
-            className="name-field"
-            placeholder="Enter your name"
+            className="name-field stat-point"
+            placeholder="3"
             value={name}
             onChange={(e) => setStatPoint(e.target.value)}
           />
@@ -60,13 +63,15 @@ function CharacterStats() {
             marginBottom: "10px",
           }}
         >
-          <label htmlFor="name">CON</label>
+          <label className="stats-name" htmlFor="name">
+            CON
+          </label>
           <input
             style={{ marginLeft: "10px" }}
             type="text"
             id="name"
-            className="name-field"
-            placeholder="Enter your name"
+            className="name-field stat-point"
+            placeholder="3"
             value={name}
             onChange={(e) => setStatPoint(e.target.value)}
           />
@@ -79,13 +84,15 @@ function CharacterStats() {
             marginBottom: "10px",
           }}
         >
-          <label htmlFor="name">INT</label>
+          <label className="stats-name" htmlFor="name">
+            INT
+          </label>
           <input
             style={{ marginLeft: "10px" }}
             type="text"
             id="name"
-            className="name-field"
-            placeholder="Enter your name"
+            className="name-field stat-point"
+            placeholder="3"
             value={name}
             onChange={(e) => setStatPoint(e.target.value)}
           />
@@ -98,13 +105,15 @@ function CharacterStats() {
             marginBottom: "10px",
           }}
         >
-          <label htmlFor="name">WIS</label>
+          <label className="stats-name" htmlFor="name">
+            WIS
+          </label>
           <input
             style={{ marginLeft: "10px" }}
             type="text"
             id="name"
-            className="name-field"
-            placeholder="Enter your name"
+            className="name-field stat-point"
+            placeholder="3"
             value={name}
             onChange={(e) => setStatPoint(e.target.value)}
           />
@@ -117,13 +126,15 @@ function CharacterStats() {
             marginBottom: "10px",
           }}
         >
-          <label htmlFor="name">CHA</label>
+          <label className="stats-name" htmlFor="name">
+            CHA
+          </label>
           <input
             style={{ marginLeft: "10px" }}
             type="text"
             id="name"
-            className="name-field"
-            placeholder="Enter your name"
+            className="name-field stat-point"
+            placeholder="3"
             value={name}
             onChange={(e) => setStatPoint(e.target.value)}
           />

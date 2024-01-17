@@ -1,9 +1,29 @@
 .wrapper {
   max-width: 10rem;
-  background-color: brown;
+  margin-left: 1rem;
 }
 
 #mid-container {
   display: flex;
   justify-content: space-between;
+}
+
+#equipment {
+  text-align: center;
+}
+
+.stats-name {
+  border-radius: 50%;
+  background-color: #6dfef5;
+  padding: 0.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  font-size: 14px;
+}
+
+.stat-point {
+  padding-left: 2rem;
+  background-color: #fff;
+  width: 1rem;
+  border-top-right-radius: 10px;
 }
