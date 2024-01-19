@@ -1,7 +1,7 @@
 import PlayerInfo from "./PlayerInfo";
 import NumberGenerator from "../FlairComponents/NumberGenerator";
 import VirtueMeterLine from "./VirtueMeter";
-import "../../styles/TopSection.css";
+import "./TopSection.css";
 
 function TopSection() {
   return (

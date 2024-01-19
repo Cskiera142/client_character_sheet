@@ -1,0 +1,14 @@
+#equipment {
+  /* position: relative; */
+}
+
+#equipment {
+  /* position: absolute; */
+  height: 25rem;
+  background: linear-gradient(
+    180deg,
+    rgba(246, 187, 241, 0.56) 0%,
+    rgba(0, 0, 0, 0.56) 100%
+  );
+  border: #f22ac1;
+}

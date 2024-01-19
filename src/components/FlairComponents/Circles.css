@@ -1,9 +1,30 @@
+@keyframes rotateClockwise {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateCounterClockwise {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
 #outercircle {
-  background-color: #6dfef5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 10rem;
   width: 10rem;
+  border: 1px dotted #6dfef5;
+  border-radius: 50%;
+  animation: rotateClockwise 40s linear infinite;
 }
 
 #innercircle {
-  background-color: #6dfef5;
+  height: 8rem;
+  width: 8rem;
+  border: 1px dotted #6dfef5;
+  border-radius: 50%;
+  animation: rotateCounterClockwise 10s linear infinite;
 }

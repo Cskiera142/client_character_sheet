@@ -1,12 +1,9 @@
 #name-container {
-  display: flex;
-  flex-direction: column;
 }
 
 .name-line {
   display: flex;
-  align-items: center;
-  margin-bottom: 10px;
+  background-color: aliceblue;
 }
 
 label {

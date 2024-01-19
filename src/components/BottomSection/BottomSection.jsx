@@ -3,7 +3,7 @@ import Stats from "./Stats";
 import NumberGenerator from "../FlairComponents/NumberGenerator";
 import Graphic from "./Graphic";
 import PowerCore from "./PowerCore";
-import "../../styles/BottomSection.css";
+import "./BottomSection.css";
 
 function BottomSection() {
   return (

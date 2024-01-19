@@ -4,14 +4,6 @@ import "./CharacterPicture.css";
 function CharacterPicture() {
   return (
     <div>
-      <div className="vert"></div>
-      <div className="vert"></div>
-      <div className="vert"></div>
-      <div className="vert"></div>
-      <div className="vert"></div>
-      <div className="vert"></div>
-      <div className="vert"></div>
-      <div className="vert"></div>
       <img id="character_image" src={portrait} />
     </div>
   );
