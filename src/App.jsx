@@ -1,14 +1,16 @@
-import TopSection from "./components/TopSection";
-import MidSection from "./components/MidSection";
-import "./styles/App.css";
-import BottomSection from "./components/BottomSection";
+import TopSection from "./components/TopSection/TopSection";
+import MidSection from "./components/MidSection/MidSection";
+import BottomSection from "./components/BottomSection/BottomSection";
+import "./styles/index.css";
+import Circles from "./components/FlairComponents/Circles";
 
 function App() {
   return (
-    <div>
+    <div id="app">
       <TopSection />
       <MidSection />
       <BottomSection />
+      <Circles />
     </div>
   );
 }

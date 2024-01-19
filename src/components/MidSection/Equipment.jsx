@@ -1,4 +1,4 @@
-import "../styles/MidSection.css";
+import "./Equipment.css";
 
 function Equipment() {
   return (

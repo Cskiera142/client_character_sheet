@@ -1,6 +1,5 @@
-import CharacterStats from "./CharacterStats";
-import "../styles/CharacterPicture.css";
-import portrait from "../images/5one-1-2-3-4.jpg";
+import portrait from "../../images/5one-1-2-3-4.jpg";
+import "./CharacterPicture.css";
 
 function CharacterPicture() {
   return (

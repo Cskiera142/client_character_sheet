@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/TopSection.css";
+import "./PlayerInfo.css";
 
 function PlayerInfo() {
   const [name, setName] = useState("");
