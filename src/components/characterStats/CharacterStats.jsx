@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./CharacterStats.css";
 
 function CharacterStats() {
   const [statPoint, setStatPoint] = useState();

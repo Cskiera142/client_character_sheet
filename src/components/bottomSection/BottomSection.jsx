@@ -1,8 +1,8 @@
 import React from "react";
-import Stats from "./Stats";
-import NumberGenerator from "../FlairComponents/NumberGenerator";
-import Graphic from "./Graphic";
-import PowerCore from "./PowerCore";
+import Stats from "../stats/Stats";
+import NumberGenerator from "../numberGenerator/NumberGenerator";
+import Graphic from "../graphic/Graphic";
+import PowerCore from "../powerCore/PowerCore";
 import "./BottomSection.css";
 
 function BottomSection() {

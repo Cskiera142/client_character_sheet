@@ -1,7 +1,7 @@
-import CharacterStats from "./CharacterStats";
-import CharacterPicture from "./CharacterPicture";
-import Equipment from "./Equipment";
-import Abilities from "./Abilities";
+import CharacterStats from "../characterStats/CharacterStats";
+import CharacterPicture from "../characterPicture/CharacterPicture";
+import Equipment from "../equipment/Equipment";
+import Abilities from "../abilites/Abilities";
 import "./MidSection.css";
 
 function MidSection() {

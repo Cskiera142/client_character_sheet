@@ -4,11 +4,20 @@
 
 #equipment {
   /* position: absolute; */
-  height: 25rem;
+  height: 30rem;
+  width: 12rem;
   background: linear-gradient(
     180deg,
     rgba(246, 187, 241, 0.56) 0%,
     rgba(0, 0, 0, 0.56) 100%
   );
   border: #f22ac1;
+}
+
+#credit-input {
+  height: 1.5rem;
+  width: 3rem;
+  border-radius: 35%;
+  border: 1px solid #6dfef5;
+  background-color: #afd3ed;
 }

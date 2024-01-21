@@ -1,4 +1,4 @@
-import "./abilities.css";
+import "./Abilities.css";
 
 function Abilities() {
   return (

@@ -1,0 +1,19 @@
+#name-container {
+  display: flex;
+  width: 15rem;
+}
+
+.name-line {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.8rem;
+}
+
+.name-field {
+  border: none;
+  height: 2rem;
+}
+
+label {
+  padding-right: 5px;
+}
