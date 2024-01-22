@@ -1,6 +1,6 @@
 import PlayerInfo from "../playerInfo/PlayerInfo";
 import NumberGenerator from "../numberGenerator/NumberGenerator";
-import VirtueMeterLine from "../VirtueMeter";
+import VirtueMeterLine from "../virtueMeter/VirtueMeter";
 import "./TopSection.css";
 
 function TopSection() {
