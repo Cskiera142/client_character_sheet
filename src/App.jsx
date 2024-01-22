@@ -1,7 +1,6 @@
 import Circles from "./components/circles/Circles";
-import character from "./views/character/Character";
-import "./styles/index.css";
 import Character from "./views/character/Character";
+import "./styles/index.css";
 
 function App() {
   return (

@@ -27,3 +27,46 @@
   width: 1rem;
   border-top-right-radius: 10px;
 }
+#center-circles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes rotateClockwise {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateCounterClockwise {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+#outercircle,
+#innercircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: -1;
+}
+
+#outercircle {
+  height: 55rem;
+  width: 55rem;
+  border: 1px dotted #6dfef5;
+  border-radius: 50%;
+  animation: rotateClockwise 40s linear infinite;
+}
+
+#innercircle {
+  height: 35rem;
+  width: 35rem;
+  border: 1px dotted #6dfef5;
+  border-radius: 50%;
+  animation: rotateCounterClockwise 10s linear infinite;
+  /* Ensure the inner circle appears on top of the outer circle */
+}
