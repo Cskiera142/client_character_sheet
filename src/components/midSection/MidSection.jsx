@@ -9,10 +9,6 @@ function MidSection() {
     <div id="mid-container">
       <CharacterStats />
       <CharacterPicture />
-      <div id="center-circles">
-        <div id="outercircle"></div>
-        <div id="innercircle"></div>
-      </div>
       <Equipment />
       <Abilities />
     </div>

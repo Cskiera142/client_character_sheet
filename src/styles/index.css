@@ -15,6 +15,7 @@
 
 #app {
   display: flex;
+  overflow: hidden;
   flex-direction: column;
   position: relative;
   width: 100vw;
