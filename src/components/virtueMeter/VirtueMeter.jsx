@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 
+import "./VirtueMeter.css";
+
 const VirtueMeterLine = () => {
   const TOTAL_BUTTONS = 21;
 
@@ -38,16 +40,22 @@ const VirtueMeterLine = () => {
   return (
     <div>
       <h3 id="virtue">Virtue</h3>
-      <div>
+      <div id="meter">
         {virtueMeter.map((item, index) => (
-          <input
-            key={index}
-            type="radio"
-            id={`radio${index}`}
-            name={`virtueMeter${index}`}
-            checked={item.selected}
-            onChange={() => setCurrentIndex(index)}
-          />
+          <>
+            <input
+              key={index}
+              type="checkbox"
+              id={`radio${index}`}
+              className="custom-checkbox"
+              checked={item.selected}
+              onChange={() => {
+                console.log("index", index);
+                setCurrentIndex(index);
+              }}
+            />
+            <label htmlFor={`radio${index}`}></label>
+          </>
         ))}
       </div>
     </div>
